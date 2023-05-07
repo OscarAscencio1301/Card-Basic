@@ -1,0 +1,64 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #F8B78B;
+  background-image: url("../img/fondoTop.svg"), url("../img/fondoBotton.svg");
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  background-repeat: no-repeat, no-repeat;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  width: 5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  width: 32.8rem;
+  border-radius: 1.6rem;
+  overflow: hidden;
+  box-shadow: 0.2rem 0.2rem 1.5rem rgba(0, 0, 0, 0.559);
+  padding: 0;
+}
+.card-header {
+  width: 100%;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-body-content {
+  background-color: #F8B78B;
+  border-radius: 100%;
+  margin-top: -7rem;
+  border: 2rem solid #f8b486;
+}
+.card-body-content-image {
+  width: 12rem;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem 2rem 2rem;
+  border-top: 0.2rem solid #F8B78B;
+}
+.card-footer-poder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=styles.css.map */
